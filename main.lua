@@ -2,6 +2,10 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "Pika Script | Desenvolvido por @fxannn.exe", HidePremium = false, SaveConfig = true, ConfigFolder = "PikaScript"})
 
+
+IntroIcon = "https://toppng.com/uploads/preview/anime-pokemon-png-transparent-pokemon-pikachu-115628931001szanhj4sy.png"
+IntroText = "Pika Hub - O hub mais Pikastico"
+
 --[[
 Name = <string> - The name of the UI.
 HidePremium = <bool> - Whether or not the user details shows Premium status or not.
@@ -22,11 +26,13 @@ local Tab = Window:MakeTab({
 
 
 Tab:AddButton({
-	Name = "Button!",
+	Name = "OI!!!!!",
 	Callback = function()
-      		print("button pressed")
+      		print("Botão Pressionado KKKK")
   	end    
 })
+
+
 
 --[[
 Name = <string> - The name of the tab.
