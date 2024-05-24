@@ -18,7 +18,7 @@ local Tab = Window:MakeTab({
 	Name = "Início",
 	Icon = "rbxassetid://17591781985",
 	PremiumOnly = false
-})x
+})
 
 --[[
 Name = <string> - The name of the tab.
