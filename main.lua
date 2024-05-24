@@ -20,6 +20,14 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
 --[[
 Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
